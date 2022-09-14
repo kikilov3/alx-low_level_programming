@@ -5,7 +5,7 @@
  * 1 and 2, separated by a comma followed by a space
  * Return: 0
  */
- int main(void) 
+int main(void)
 {
 int count;
 unsigned long fib1 = 0, fib2 = 1, sum;
