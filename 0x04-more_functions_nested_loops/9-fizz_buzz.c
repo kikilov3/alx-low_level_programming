@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - FizzBuzz
  * Description: prints the numbers 1 - 100 w/
