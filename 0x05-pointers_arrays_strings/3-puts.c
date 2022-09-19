@@ -2,12 +2,12 @@
 /**
  * _puts - prints a string in stdout
  * @str: string to print
- * Return: void
+ * Return: 0
  */
 void _puts(char *str)
 {
-int i = 0;
-while (*(str + i))
+int i;
+while (*(str + i)) != '\0')
 {
 _putchar(*(str + i));
 i++;
