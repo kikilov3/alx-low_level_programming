@@ -4,6 +4,8 @@
  * Return: 0
  */
 int main(void)
+{
+int unlock, passwd;
 srand(time(NULL));
 unlock = 2772;
 while (unlock >= 127)
