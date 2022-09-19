@@ -2,15 +2,13 @@
 /**
  * _strlen - Return the length of a given string
  * @s: Pointer to the string
- * Return: 0
+ * Return: length of s
  */
 int _strlen(char *s)
 {
-int i;
+int i = 0;
 
-while (*(s + i) != '\0')
-{
+while (*(s + i))
 i++;
-}
 return (i);
 }
