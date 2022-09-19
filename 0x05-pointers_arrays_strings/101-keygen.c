@@ -1,4 +1,5 @@
-#include "main.h"
+#include <time.h>
+#include <stdio.h>
 #include <stddef.h>
 
 /**
