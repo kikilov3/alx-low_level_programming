@@ -1,6 +1,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * main - randomise a password for 101-crackme
@@ -11,6 +12,7 @@ int main(void)
 int i, j, k, s;
 char c[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char p[58];
+
 srand(time(NULL));
 while (s != 2772)
 {
