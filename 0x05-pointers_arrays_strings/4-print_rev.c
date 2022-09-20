@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * print_rev - Print a string in rev
- * @s: String to print
- * Return: nothing
+ * @s: String to be printed
  */
 void print_rev(char *s)
 {
