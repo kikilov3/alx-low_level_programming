@@ -5,7 +5,6 @@
  * main - adds numbers
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
- *
  * Return: 0 if no errors, else 1
  */
 int main(int argc, char *argv[])
@@ -29,4 +28,4 @@ int main(int argc, char *argv[])
 	}
 	printf("%d\n", a);
 	return (0);
-}  
+}
